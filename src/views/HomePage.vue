@@ -25,9 +25,8 @@
           <span class="text-[#645162]">In Africa</span>
         </h1>
 
-        <p class="text-gray-400 max-w-md mb-8">
-          A full service digital agency focused on creativity and result driven
-          solutions.
+        <p class="text-gray-100 max-w-md mb-8">
+        We deliver reliable, scalable, and industry-focused technology services tailored to meet needs across multiple sectors.
         </p>
 
         <button
@@ -38,11 +37,11 @@
       </div>
 
       <!-- RIGHT: Image / Illustration -->
-      <div class="flex justify-center md:justify-end">
+      <div class="relative flex justify-center md:justify-end">
         <img
-          src="@/assets/images/HeroImage/HeroIllustration.png"
+          src="@/assets/images/HeroImage/anotherHeroImg.png"
           alt="Hero Illustration"
-          class="w-full max-w-xl"
+          class="w-auto h-[420px] scale-120 object-contain"
         />
       </div>
     </div>
