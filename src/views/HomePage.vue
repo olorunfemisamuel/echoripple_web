@@ -6,15 +6,15 @@
   <!-- 🏠 Hero Section -->
  <section
   id="home"
-  class="min-h-[100svh] md:min-h-screen bg-[#647a85] flex md:items-center"
+ class="bg-[#647a85] flex md:min-h-screen md:items-center"
 >
 
-   <div class="max-w-7xl mx-auto w-full px-6 pt-24 md:pt-0 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+   <div class="max-w-7xl mx-auto w-full px-6 pt-8 md:pt-0 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
       <!-- LEFT: Text Content -->
       <div class="text-left">
       <img
        src="@/assets/images/HeroImage/Echo Ripple (1).png"
-    class="block h-95 w-auto mb-0 z-10 mt-0 md:-mt-50"
+  class="block h-40 md:h-95 w-auto mb-4 z-10 md:-mt-50"
       />
 
 
