@@ -41,7 +41,7 @@
         <img
           src="@/assets/images/HeroImage/anotherHeroImg.png"
           alt="Hero Illustration"
-          class="w-auto h-[420px] scale-120 object-contain"
+          class="w-auto h-[420px] object-contain"
         />
       </div>
     </div>
