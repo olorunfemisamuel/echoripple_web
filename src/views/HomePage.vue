@@ -6,7 +6,7 @@
   <!-- 🏠 Hero Section -->
  <section
   id="home"
- class="bg-[#d5d9dc] flex md:min-h-screen md:items-center overflow-hidden"
+ class="bg-[#d5d9dc] flex min-h-screen md:items-center overflow-hidden"
 >
 
    <div class="max-w-7xl mx-auto w-full px-10 pt-8 md:pt-0 grid grid-cols-1 md:grid-cols-2 items-center">
