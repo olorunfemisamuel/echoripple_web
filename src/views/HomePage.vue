@@ -6,25 +6,25 @@
   <!-- 🏠 Hero Section -->
  <section
   id="home"
- class="bg-[#647a85] flex md:min-h-screen md:items-center"
+ class="bg-[#d5d9dc] flex md:min-h-screen md:items-center overflow-hidden"
 >
 
-   <div class="max-w-7xl mx-auto w-full px-6 pt-8 md:pt-0 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+   <div class="max-w-7xl mx-auto w-full px-10 pt-8 md:pt-0 grid grid-cols-1 md:grid-cols-2 items-center">
       <!-- LEFT: Text Content -->
       <div class="text-left">
       <img
-       src="@/assets/images/HeroImage/Echo Ripple (1).png"
-  class="block h-85 md:h-95 w-auto mb-4 -mt-15 z-10 md:-mt-50"
+       src="@/assets/images/HeroImage/HeaderLogo.png"
+  class="block h-25 md:h-35 w-auto mb-15  z-10 md:-mt-50"
       />
 
 
-       <h1 class="text-4xl md:text-6xl font-extrabold text-gray-300 leading-none mb-4 -mt-25 md:-mt-30">
+       <h1 class="text-4xl md:text-6xl font-extrabold text-[#645162] leading-none -mt-17 md:-mt-20">
 
          Technology Cornerstone <br />
           <span class="text-[#645162]">In Africa</span>
         </h1>
 
-        <p class="text-gray-100 max-w-md mb-8">
+        <p class="text-black max-w-md mb-8">
         We deliver reliable, scalable, and industry-focused technology services tailored to meet needs across multiple sectors.
         </p>
 
@@ -36,11 +36,11 @@
       </div>
 
       <!-- RIGHT: Image / Illustration -->
-      <div class="relative flex justify-center md:items-center -mt-25 items-center md:justify-end">
+      <div class="relative flex justify-center md:justify-end items-center">
         <img
-          src="@/assets/images/HeroImage/anotherHeroImg.png"
+          src="@/assets/images/HeroImage/Heroimge.png"
           alt="Hero Illustration"
-          class="w-auto h-[420px] object-contain"
+          class="w-full md:w-[150%] max-w-none relative left-0 md:left-10 object-contain"
         />
       </div>
     </div>
