@@ -14,11 +14,11 @@
       <div class="text-left">
       <img
        src="@/assets/images/HeroImage/Echo Ripple (1).png"
-  class="block h-40 md:h-95 w-auto mb-4 z-10 md:-mt-50"
+  class="block h-85 md:h-95 w-auto mb-4 -mt-15 z-10 md:-mt-50"
       />
 
 
-       <h1 class="text-4xl md:text-6xl font-extrabold text-gray-300 leading-none mb-4 mt-0 md:-mt-30">
+       <h1 class="text-4xl md:text-6xl font-extrabold text-gray-300 leading-none mb-4 -mt-25 md:-mt-30">
 
          Technology Cornerstone <br />
           <span class="text-[#645162]">In Africa</span>
@@ -36,7 +36,7 @@
       </div>
 
       <!-- RIGHT: Image / Illustration -->
-      <div class="relative flex justify-center md:justify-end">
+      <div class="relative flex justify-center md:items-center -mt-25 items-center md:justify-end">
         <img
           src="@/assets/images/HeroImage/anotherHeroImg.png"
           alt="Hero Illustration"

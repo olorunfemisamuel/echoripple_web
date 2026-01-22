@@ -14,7 +14,7 @@
                    <img
   src="/HeaderLogo.png"
   alt="EchoRipple"
-  class="h-5 md:h-20 w-auto"
+  class="h-15 md:h-20 w-auto"
 />
 
                 </div>
