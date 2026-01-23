@@ -14,7 +14,7 @@
       <div class="text-left">
       <img
        src="@/assets/images/HeroImage/HeaderLogo.png"
-  class="block h-25 md:h-35 w-auto mb-15  z-10 md:-mt-50"
+  class="block h-25 md:h-35 w-auto mb-15 -mt-25  z-10 md:-mt-50"
       />
 
 
@@ -36,7 +36,7 @@
       </div>
 
       <!-- RIGHT: Image / Illustration -->
-      <div class="relative flex justify-center md:justify-end items-center -mt-25 md:-mt-14">
+      <div class="relative flex justify-center md:justify-end items-center -mt-90 md:-mt-14">
         <img
           src="@/assets/images/HeroImage/Heroimge.png"
           alt="Hero Illustration"
