@@ -17,7 +17,7 @@ import { ref } from 'vue'
                    <img
   src="/Echo Ripple (1).png"
   alt="EchoRipple"
- class="h-40 md:h-45 w-auto object-contain"
+ class="h-35 md:h-45 w-auto object-contain sm:mr-30"
 />
 
                 </div>

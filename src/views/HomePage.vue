@@ -36,11 +36,11 @@
       </div>
 
       <!-- RIGHT: Image / Illustration -->
-      <div class="relative flex justify-center md:justify-end items-center">
+      <div class="relative flex justify-center md:justify-end items-center -mt-25 md:-mt-14">
         <img
           src="@/assets/images/HeroImage/Heroimge.png"
           alt="Hero Illustration"
-          class="w-full md:w-[150%] max-w-none relative left-0 md:left-10 object-contain"
+          class="w-full md:w-[150%] max-w-none relative left-0 md:left-20 object-contain"
         />
       </div>
     </div>
