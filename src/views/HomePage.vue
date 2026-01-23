@@ -36,7 +36,7 @@
       </div>
 
       <!-- RIGHT: Image / Illustration -->
-      <div class="relative flex justify-center md:justify-end items-center -mt-90 md:-mt-14">
+      <div class="relative flex justify-center md:justify-end items-center -mt-35 md:-mt-14">
         <img
           src="@/assets/images/HeroImage/Heroimge.png"
           alt="Hero Illustration"
