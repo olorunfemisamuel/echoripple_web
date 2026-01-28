@@ -58,9 +58,9 @@ const hamburgerOpen = ref(false)
   @click="hamburgerOpen = !hamburgerOpen"
 >
   <!-- Hamburger icon -->
-  <div v-if="!hamburgerOpen" class="flex flex-col gap-2">
-    <span class="w-8 h-0.75 bg-[#645162] block"></span>
-    <span class="w-4 h-0.75 bg-[#645162] block"></span>
+  <div v-if="!hamburgerOpen" class="flex flex-col gap-1">
+    <span class="w-6 h-0.5 bg-[#645162] block"></span>
+    <span class="w-4 h-0.5 bg-[#645162] block"></span>
   </div>
 
   <!-- Cancel (X) icon -->
