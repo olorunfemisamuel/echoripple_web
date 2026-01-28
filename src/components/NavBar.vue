@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 
-  const hamburgerOpen = ref(false)
+const hamburgerOpen = ref(false)
 
 </script>
 
@@ -11,13 +11,13 @@ import { ref } from 'vue'
 
         <!--navbar-->
         <header class="sticky top-0 right-0 left-0 bg-[#d5d9dc] z-10">
-         <nav class="flex items-center justify-between px-6 h-20">
+         <nav class="flex items-center justify-between  h-20">
                 <!--logo text-->
 <div class="flex items-center gap-2">
                    <img
   src="/Echo Ripple (1).png"
   alt="EchoRipple"
- class="h-35 md:h-45 w-auto object-contain sm:mr-30"
+ class="h-30 md:h-35 w-auto object-contain mb-2 xl:"
 />
 
                 </div>
@@ -51,15 +51,9 @@ import { ref } from 'vue'
                       <a href="" class="mx-3 ml-5 hover:text-gray-200">Services</a>
                        <a href="" class="mx-3 ml-5 hover:text-gray-200">Industries</a>
                 </div>
-
-                <!--login button-->
-               <div class="hidden">
-                    <a href = "" class="mr-4 py-2 px-3 rounded-lg shadow-sm shadow-gray-500 text-white hover:text-gray-800 hover:bg-gray-200 bg-transparent">Login</a>
-                </div>
-
                 <!--menu hamburger responsive-->
               <div
-  class="cursor-pointer text-gray-300 text-3xl z-50"
+  class="cursor-pointer text-gray-300 text-3xl z-50 px-6"
   id="hamburger"
   @click="hamburgerOpen = !hamburgerOpen"
 >
