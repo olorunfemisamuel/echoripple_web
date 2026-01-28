@@ -11,7 +11,7 @@ const hamburgerOpen = ref(false)
 
         <!--navbar-->
         <header class="sticky top-0 right-0 left-0 bg-[#d5d9dc] z-10">
-         <nav class="flex items-center justify-between h-17git md:h-20">
+         <nav class="flex items-center justify-between h-17 md:h-20">
                 <!--logo text-->
 <div class="flex items-center gap-2">
                    <img
