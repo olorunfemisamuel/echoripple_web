@@ -59,8 +59,8 @@ const hamburgerOpen = ref(false)
 >
   <!-- Hamburger icon -->
   <div v-if="!hamburgerOpen" class="flex flex-col gap-1">
-    <span class="w-6 h-0.5 bg-[#645162] block"></span>
-    <span class="w-4 h-0.5 bg-[#645162] block"></span>
+    <span class="w-6 h-0.75 bg-[#645162] block"></span>
+    <span class="w-4 h-0.75 bg-[#645162] block"></span>
   </div>
 
   <!-- Cancel (X) icon -->
@@ -71,16 +71,6 @@ const hamburgerOpen = ref(false)
 
 
             </nav>
-
-            <!----Putting Navigation Links into Hamburger Menu-->
-
-    <!-- <div id="mobile-menu" class="hidden max-md:flex flex-col bg-gray-900 text-gray-300 px-6 py-4 space-y-4">
-    <a href="" class="hover:text-yellow-500">Home</a>
-    <a href="" class="hover:text-yellow-500">About</a>
-    <a href="" class="hover:text-yellow-500">Process</a>
-    <a href="" class="hover:text-yellow-500">Portfolio</a>
-</div> -->
-
 
         </header>
 
