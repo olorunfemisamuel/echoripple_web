@@ -1,9 +1,13 @@
 <script setup lang="ts">
-import { ref } from 'vue'
+import { ref, watch } from 'vue'
 
 const hamburgerOpen = ref(false)
 
+watch(hamburgerOpen, (isOpen) => {
+  document.body.classList.toggle('overflow-hidden', isOpen)
+})
 </script>
+
 
 <template>
 
@@ -21,36 +25,57 @@ const hamburgerOpen = ref(false)
 />
 
                 </div>
-                <!--menu items-->
-          <div
-  id="mobile-menu"
-  class="
-    fixed
-    flex flex-col
-    top-0
-    right-0
-    h-screen
-    w-72
-    bg-[#455a64]
-    text-gray-300
-    px-6
-    py-10
-    space-y-6
-    z-50
-    mt-5
-  "
-  :class="{ hidden: !hamburgerOpen }"
+
+<!-- Backdrop -->
+<Transition
+  enter-active-class="transition-opacity duration-300"
+  enter-from-class="opacity-0"
+  enter-to-class="opacity-100"
+  leave-active-class="transition-opacity duration-200"
+  leave-from-class="opacity-100"
+  leave-to-class="opacity-0"
 >
+  <div
+    v-if="hamburgerOpen"
+    class="fixed inset-0 bg-black/30 backdrop-blur-sm z-40"
+    @click="hamburgerOpen = false"
+  ></div>
+</Transition>
 
 
 
+      <Transition
+  enter-active-class="transition duration-300 ease-out"
+  enter-from-class="opacity-0 translate-x-full"
+  enter-to-class="opacity-100 translate-x-0"
+  leave-active-class="transition duration-300 ease-in"
+  leave-from-class="opacity-100 translate-x-0"
+  leave-to-class="opacity-0 translate-x-full"
+>
+  <div
+    v-if="hamburgerOpen"
+    id="mobile-menu"
+    class="
+      fixed
+      top-0
+      right-0
+      h-screen
+      w-72
+      bg-[#455a64]
+      text-gray-300
+      px-6
+      py-10
+      space-y-6
+      z-50
+    "
+  >
+    <a href="" class="mt-16 ml-5 block hover:text-gray-200">Home</a>
+    <a href="" class="ml-5 block hover:text-gray-200">About Us</a>
+    <a href="" class="ml-5 block hover:text-gray-200">Services</a>
+    <a href="" class="ml-5 block hover:text-gray-200">Industries</a>
+  </div>
+</Transition>
 
-
-                    <a href="" class="mx-3 mt-16 ml-5 hover:text-gray-200">Home</a>
-                     <a href="" class="mx-3 ml-5 hover:text-gray-200">About Us</a>
-                      <a href="" class="mx-3 ml-5 hover:text-gray-200">Services</a>
-                       <a href="" class="mx-3 ml-5 hover:text-gray-200">Industries</a>
-                </div>
                 <!--menu hamburger responsive-->
               <div
   class="cursor-pointer text-gray-300 text-3xl z-50 px-6"
@@ -59,7 +84,7 @@ const hamburgerOpen = ref(false)
 >
   <!-- Hamburger icon -->
   <div v-if="!hamburgerOpen" class="flex flex-col gap-1">
-    <span class="w-6 h-0.75 bg-[#645162] block"></span>
+    <span class="w-7 h-0.75 bg-[#645162] block"></span>
     <span class="w-4 h-0.75 bg-[#645162] block"></span>
   </div>
 
