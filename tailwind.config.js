@@ -4,11 +4,7 @@ export default {
     './src/**/*.{vue,js,ts,jsx,tsx}'
   ],
   theme: {
-    extend: {
-      fontFamily: {
-        lince: ['"Lince TH Sans"', 'sans-serif'],
-      }
-    },
+    extend: {  },
   },
   plugins: [],
 }
