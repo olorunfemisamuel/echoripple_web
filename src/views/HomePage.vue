@@ -17,12 +17,12 @@
           <span class="text-[#645162]">In Africa</span>
         </h1>
 
-        <p class="text-black text-sm sm:text-base md:text-lg max-w-xl">
+        <p class="text-black text-sm sm:text-base md:text-lg max-w-xl font-raleway font-normal">
           We deliver reliable, scalable, and industry-focused technology services tailored to meet needs across multiple sectors.
         </p>
 
         <button
-          class="bg-[#978395] hover:bg-[#645162] text-black font-semibold px-6 sm:px-8 py-2.5 sm:py-3 transition text-sm sm:text-base"
+          class="bg-[#978395] hover:bg-[#645162] text-black font-raleway font-normal px-6 sm:px-8 py-2.5 sm:py-3 transition text-sm sm:text-base"
         >
           Let's Build!
         </button>
