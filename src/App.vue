@@ -2,6 +2,7 @@
 
   import NavBar from '@/components/NavBar.vue'
   import HomePage from '@/views/HomePage.vue';
+  import FooterPage from '@/components/FooterPage.vue';
 </script>
 
 <template>
@@ -13,6 +14,7 @@
 
   <NavBar />
 <HomePage/>
+<FooterPage/>
 
 </template>
 

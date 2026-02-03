@@ -72,7 +72,7 @@
         <!-- Card 2 -->
         <div class="border border-[#978395] rounded-sm flex flex-col">
           <div class="flex items-center justify-center h-56 md:h-64 px-6">
-            <img src="@/assets/images/SectionImages/webdevIMAGE.jpg" alt="Mobile Development" class="h-full object-contain" />
+            <img src="@/assets/images/SectionImages/mobiledevIMAGE.jpg" alt="Mobile Development" class="h-full object-contain" />
           </div>
           <div class="flex items-end justify-between px-4 pb-4">
             <h3 class="font-lince font-bold text-[#645162] text-lg md:text-xl leading-tight">Mobile <br/> Development</h3>
@@ -89,6 +89,56 @@
           </div>
           <div class="flex items-end justify-between px-4 pb-4">
             <h3 class="font-lince font-bold text-[#645162] text-lg md:text-xl leading-tight">Mobile <br/> Games</h3>
+            <button class="w-10 h-10 rounded-full bg-[#978395] hover:bg-[#645162] flex items-center justify-center transition">
+              <i class="fas fa-arrow-right text-white text-sm"></i>
+            </button>
+          </div>
+        </div>
+
+
+        <!-- Card 4 -->
+        <div class="border border-[#978395] rounded-sm flex flex-col">
+          <!-- Image/Icon Area -->
+          <div class="flex items-center justify-center h-56 md:h-64 px-6">
+            <img src="@/assets/images/SectionImages/webdevIMAGE.jpg" alt="Website Development" class="h-full object-contain" />
+          </div>
+          <!-- Bottom: Title + Arrow -->
+          <div class="flex items-end justify-between px-4 pb-4">
+            <h3 class="font-lince font-bold text-[#645162] text-lg md:text-xl leading-tight">Business  <br/> Websites</h3>
+            <button class="w-10 h-10 rounded-full bg-[#978395] hover:bg-[#645162] flex items-center justify-center transition">
+              <i class="fas fa-arrow-right text-white text-sm"></i>
+            </button>
+          </div>
+        </div>
+
+
+
+        <!-- Card 5 -->
+        <div class="border border-[#978395] rounded-sm flex flex-col">
+          <!-- Image/Icon Area -->
+          <div class="flex items-center justify-center h-56 md:h-64 px-6">
+            <img src="@/assets/images/SectionImages/webdevIMAGE.jpg" alt="Website Development" class="h-full object-contain" />
+          </div>
+          <!-- Bottom: Title + Arrow -->
+          <div class="flex items-end justify-between px-4 pb-4">
+            <h3 class="font-lince font-bold text-[#645162] text-lg md:text-xl leading-tight">Website <br/> Development</h3>
+            <button class="w-10 h-10 rounded-full bg-[#978395] hover:bg-[#645162] flex items-center justify-center transition">
+              <i class="fas fa-arrow-right text-white text-sm"></i>
+            </button>
+          </div>
+        </div>
+
+
+
+        <!--Card 6-->
+        <div class="border border-[#978395] rounded-sm flex flex-col">
+          <!-- Image/Icon Area -->
+          <div class="flex items-center justify-center h-56 md:h-64 px-6">
+            <img src="@/assets/images/SectionImages/webdevIMAGE.jpg" alt="Website Development" class="h-full object-contain" />
+          </div>
+          <!-- Bottom: Title + Arrow -->
+          <div class="flex items-end justify-between px-4 pb-4">
+            <h3 class="font-lince font-bold text-[#645162] text-lg md:text-xl leading-tight">Website <br/> Development</h3>
             <button class="w-10 h-10 rounded-full bg-[#978395] hover:bg-[#645162] flex items-center justify-center transition">
               <i class="fas fa-arrow-right text-white text-sm"></i>
             </button>
