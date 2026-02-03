@@ -77,23 +77,23 @@ watch(hamburgerOpen, (isOpen) => {
   class="fixed top-0 right-0 h-screen w-72 bg-[#455a64] text-gray-300 px-6 py-10 space-y-6 z-50"
 >
   <div class="mt-16 space-y-6">
-    <a href="" class="flex items-center justify-between hover:text-gray-200 hover:underline hover:decoration-[#978395] underline-offset-4">
-      <span>Home</span>
-      <i class="fas fa-home"></i>
-    </a>
-    <a href="" class="flex items-center justify-between hover:text-gray-200 hover:underline hover:decoration-[#978395] underline-offset-4">
-      <span>About Us</span>
-      <i class="fas fa-users"></i>
-    </a>
-    <a href="" class="flex items-center justify-between hover:text-gray-200 hover:underline hover:decoration-[#978395] underline-offset-4">
-      <span>Services</span>
-      <i class="fas fa-briefcase"></i>
-    </a>
-    <a href="" class="flex items-center justify-between hover:text-gray-200 hover:underline hover:decoration-[#978395] underline-offset-4">
-      <span>Industries</span>
-      <i class="fas fa-industry"></i>
-    </a>
-  </div>
+  <a href="" class="flex items-center justify-between pb-3 border-b border-transparent hover:border-[#978395] transition-colors duration-300">
+    <span>Home</span>
+    <i class="fas fa-home"></i>
+  </a>
+  <a href="" class="flex items-center justify-between pb-3 border-b border-transparent hover:border-[#978395] transition-colors duration-300">
+    <span>About Us</span>
+    <i class="fas fa-users"></i>
+  </a>
+  <a href="" class="flex items-center justify-between pb-3 border-b border-transparent hover:border-[#978395] transition-colors duration-300">
+    <span>Services</span>
+    <i class="fas fa-briefcase"></i>
+  </a>
+  <a href="" class="flex items-center justify-between pb-3 border-b border-transparent hover:border-[#978395] transition-colors duration-300">
+    <span>Industries</span>
+    <i class="fas fa-industry"></i>
+  </a>
+</div>
 </div>
 </div>
 </Transition>
