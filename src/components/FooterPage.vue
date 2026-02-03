@@ -25,7 +25,7 @@ const scrollToTop = () => {
           <!-- Social Icons -->
           <div class="flex items-center gap-3 pt-2">
             <a href="#" class="w-9 h-9 rounded-full bg-gray-700 hover:bg-[#978395] flex items-center justify-center transition">
-              <i class="fas fa-facebook-f text-white text-sm"></i>
+             <i class="fa fa-facebook" aria-hidden="true"></i>
             </a>
             <a href="#" class="w-9 h-9 rounded-full bg-gray-700 hover:bg-[#978395] flex items-center justify-center transition">
               <i class="fas fa-linkedin-in text-white text-sm"></i>
