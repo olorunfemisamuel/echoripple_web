@@ -26,7 +26,7 @@ watch(hamburgerOpen, (isOpen) => {
 
                 </div>
 
-<!-- Backdrop -->
+<!-- Backdrop for Background Blur-->
 <Transition
   enter-active-class="transition-opacity duration-300"
   enter-from-class="opacity-0"
@@ -69,11 +69,33 @@ watch(hamburgerOpen, (isOpen) => {
       z-50
     "
   >
-    <a href="" class="mt-16 ml-5 block hover:text-gray-200">Home</a>
-    <a href="" class="ml-5 block hover:text-gray-200">About Us</a>
-    <a href="" class="ml-5 block hover:text-gray-200">Services</a>
-    <a href="" class="ml-5 block hover:text-gray-200">Industries</a>
+ 
+ <!---Font Awesome Icons--->
+<div
+  v-if="hamburgerOpen"
+  id="mobile-menu"
+  class="fixed top-0 right-0 h-screen w-72 bg-[#455a64] text-gray-300 px-6 py-10 space-y-6 z-50"
+>
+  <div class="mt-16 space-y-6">
+    <a href="" class="flex items-center justify-between hover:text-gray-200 hover:underline hover:decoration-[#978395] underline-offset-4">
+      <span>Home</span>
+      <i class="fas fa-home"></i>
+    </a>
+    <a href="" class="flex items-center justify-between hover:text-gray-200 hover:underline hover:decoration-[#978395] underline-offset-4">
+      <span>About Us</span>
+      <i class="fas fa-users"></i>
+    </a>
+    <a href="" class="flex items-center justify-between hover:text-gray-200 hover:underline hover:decoration-[#978395] underline-offset-4">
+      <span>Services</span>
+      <i class="fas fa-briefcase"></i>
+    </a>
+    <a href="" class="flex items-center justify-between hover:text-gray-200 hover:underline hover:decoration-[#978395] underline-offset-4">
+      <span>Industries</span>
+      <i class="fas fa-industry"></i>
+    </a>
   </div>
+</div>
+</div>
 </Transition>
 
                 <!--menu hamburger responsive-->
